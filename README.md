@@ -11,6 +11,13 @@ Here are some ideas to get you started:
 
 Hi there! 👋 I'm Zhu Hengbo.
 
-<img src="https://github-readme-stats-one-bice.vercel.app/api?username=hubblezzhu&count_private=true&show_icons=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR" alt="Hengbo's GitHub stats" height="185px" />
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hubblezzhu&hide=html,css,ejs,makefile,tex&layout=compact&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+<img
+  class="repo-img-light w-100"
+  alt="{{ include.username }}"
+  src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true"
+>
+<img
+  class="repo-img-dark w-100"
+  alt="{{ include.username }}"
+  src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true"
+>
