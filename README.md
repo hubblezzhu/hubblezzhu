@@ -16,8 +16,4 @@ Hi there! 👋 I'm Zhu Hengbo.
   alt="{{ include.username }}"
   src="https://github-readme-stats.vercel.app/api/?username=hubblezzhu&theme=default&show_icons=true"
 />
-<img
-  class="repo-img-dark w-100"
-  alt="{{ include.username }}"
-  src="https://github-readme-stats.vercel.app/api/?username=hubblezzhu&theme=dark&show_icons=true"
-/>
+
